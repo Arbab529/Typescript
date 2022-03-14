@@ -1,17 +1,17 @@
-class Email{
-    createEmail(name:string){
+class Email {
+    createEmail(name: string) {
         return console.log(`${name}@gmail.com`);
     }
 }
 
-class Manager extends Email{
-    addUser(name:string){
+class Manager extends Email {
+    addUser(name: string) {
         console.log(`${name}@gmail.com`);
     }
 }
 
-class Admin extends Email{
-    addUser(name:string){
+class Admin extends Email {
+    addUser(name: string) {
         console.log(`${name}@gmail.com`);
     }
 }
@@ -23,4 +23,4 @@ user1.createEmail("Arbab");
 
 const user2 = new Admin();
 user1.addUser("Admin");
-user1.createEmail("Admin")
+user1.createEmail("Arbab")
